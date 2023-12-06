@@ -1,9 +1,9 @@
-pip install python==3.8
-
-pip install openai
-
-import openai 
-from openai import OpenAI
+import langchain
+import duckduckgo-search
+import anthropic
+import trubrics
+import openai
+import streamlit-feedback
 import streamlit as st
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
