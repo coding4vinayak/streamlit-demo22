@@ -1,3 +1,5 @@
+pip install python==3.8
+
 pip install openai
 
 import openai 
