@@ -1,9 +1,10 @@
 import langchain
-import duckduckgo-search
+
 import anthropic
 import trubrics
 import openai
 import streamlit-feedback
+from openai import OPENAI
 import streamlit as st
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
