@@ -3,7 +3,7 @@ import langchain
 import anthropic
 import trubrics
 import openai
-import streamlit-feedback
+
 from openai import OPENAI
 import streamlit as st
 with st.sidebar:
